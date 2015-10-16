@@ -1,19 +1,9 @@
 <?php
 
 include("config/config.class.php");
-// include("framework/function.class.php");
-// include("style/head.class.php");
-// include("style/main.class.php");
-// include("style/footer.class.php");
-// include("style/dev.class.php");
 
-// $o_f = new functions();
 $o_config = new config();
 $o_main = new framework();
-// $o_s_head = new s_head();
-// $o_s_main = new s_main();
-// $o_s_foot = new s_foot();
-// $o_s_dev = new s_dev();
 
 mysql_connect($o_config->getMysqlHost(), $o_config->getMysqlUser(), $o_config->getMysqlPassword());
 mysql_select_db($o_config->getMysqlDatabase());
@@ -22,7 +12,7 @@ mysql_select_db($o_config->getMysqlDatabase());
 class framework{
 	
 	//////////////////////
-	// variable			//
+	// variable	    //
 	//////////////////////
 
 	// general settings
