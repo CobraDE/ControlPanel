@@ -39,9 +39,9 @@ class framework{
 	private $small_headline = "SER"; // for mobile devices 
 	private $subtitle = "Control Panel";
 	private $dev = false;
-	private $copyright = "Jan Knödler";
-	private $developer = "Jan Knödler";
-	private $developer_link = "http://www.google.de";
+	private $copyright = "CobraDE";
+	private $developer = "CobraDE";
+	private $developer_link = "https://www.mta-sa.org/user/7955-cobrade/";
 	private $legend = true;
 	private $online_player = true;
 	private $version = "1.0.0";
